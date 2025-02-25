@@ -19,4 +19,5 @@ document.addEventListener("DOMContentLoaded", function () {
     if (submitButton) {
         submitButton.addEventListener("click", checkAnswers);
     }
+    console.log(score);
 });
