@@ -10,8 +10,6 @@ let obj={
     "*":"+",
     "/":"%"
 }
-c=obj[c];
-console.log(c)
 if (number>0.1){
     console.log(`the result is ${a} ${c} ${b}`)
     alert(`the result is ${eval(`${a} ${c} ${b}`)}`)
