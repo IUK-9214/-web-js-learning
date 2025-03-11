@@ -9,5 +9,12 @@ buttom.addEventListener("contextmenu",()=>{
 document.querySelector(".box").innerHTML="another amazing trick "
 })
 document.addEventListener("keydown",(e)=>{
-    console.log(e.key,e.keycode)
+   
+if (e.key==Arrowup){
+    console.log("fuck you ")
+
+}
+else{
+    console.log(e.key)
+}
 })
