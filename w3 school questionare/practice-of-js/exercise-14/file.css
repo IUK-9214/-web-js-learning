@@ -1,0 +1,25 @@
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+ body{
+    background-color: rgb(0, 0, 0);
+ }
+.hacker{
+    height: 250px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    flex-direction: column;
+    position: relative;
+    top: 20vh;
+}
+.text{
+    color: rgb(8, 247, 8);
+}
+.texted{
+   
+}
