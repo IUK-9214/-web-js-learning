@@ -12,7 +12,7 @@ let data = setTimeout(()=>{
 let item = document.getElementById("hk");
 item.style.background="black";
 item.style.color="green";
-item.innerHTML="Hacking initilaizing";
+item.innerHTML="Hacking initilaizing ";
 
 let obj=[
     "Reading your files ","Password files detected ","Sending all Passwords and Personal files to server ","Cleaning up "
@@ -28,7 +28,7 @@ let count=0;
         if(count==4){
           clearInterval(inter)
         }
-    },500)
+    },400)
     
 i++;
 
@@ -38,8 +38,6 @@ clearInterval(intr)
 
     },2000)
     
-
-
    let count=0;
    let inter= setInterval(()=>{
         item.textContent+=".";
@@ -48,7 +46,6 @@ clearInterval(intr)
           clearInterval(inter)
         }
     },500)
-
 
 }
 ,2000)
